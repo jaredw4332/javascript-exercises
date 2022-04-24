@@ -1,4 +1,4 @@
-const findTheOldest = function() {
+const findTheOldest = function(people) {
     let currentYear = new Date().getFullYear()
     const oldestPerson = people.sort(function(a,b){
         if (a.yearOfDeath == undefined){
